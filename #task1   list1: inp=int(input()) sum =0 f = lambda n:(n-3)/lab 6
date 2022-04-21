@@ -1,0 +1,25 @@
+#task1
+
+list1:
+inp=int(input())
+sum =0
+f = lambda n:(n-3)/n*n
+for n in range (1,inp+1):
+    sum+=f(n)
+    list1.append(f(n)
+    print(sum)
+    print(list1)
+ #task2
+var=0
+multip = 1
+mylist2[]
+def func2(n):
+ global var
+ global multip
+ var = nvar = (var/(var + 2))-10
+ multip = multip*var
+ mylist2.append(multip)
+ if n==1:
+  print(multip)
+ else:
+  func2(n-1)
